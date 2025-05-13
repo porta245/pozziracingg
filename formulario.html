@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Document</title>
+
+    <style>
+        h1{
+           background-color: burlywood;
+           text-align: center;
+           color:whitesmoke;
+           font-size: 30px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form{
+            background-color:grey;
+            width: 40%;
+            text-align: center;
+            margin:10px;
+            padding:10px;
+            margin-left: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0,5);
+        }
+        button{
+            background-color: grey;
+            font-size:20px;
+            border-radius:10px;
+            color: wheat;
+        
+        }
+        body {
+          padding-top: 60px;
+        }
+        footer {
+          background-color: #000;
+          color: #fff;
+          padding: 40px 0;
+        }
+        footer h5 {
+          color: #e60000;
+          margin-bottom: 20px;
+        }
+
+        footer a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        footer a:hover {
+          text-decoration: underline;
+        }
+
+        .footer-bottom {
+          border-top: 1px solid #444;
+          margin-top: 30px;
+          padding-top: 20px;
+          text-align: center;
+          font-size: 14px;
+        }
+        .container{ 
+          margin-top: 50px
+        }
+        .navbar-toggler{ 
+          margin-left:600px;
+        }
+        .product-image {
+          max-width: 100%;
+          height: auto;
+        }
+        .color-option {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          display: inline-block;
+          margin-right: 5px;
+          border: 1px solid #ccc;
+        }
+        .faq-item {
+          margin-bottom: 15px;
+        }
+        .navbar{
+            background-color: black;      
+        }
+
+        .row{
+            margin-top:50px;
+        }
+
+        .row{
+          margin-top:100px;
+        }
+
+        .container-fluid{
+          height:80px ;
+          margin-top:-20px;
+          
+        }
+        h2{
+          margin-top:50px
+        }
+        .container{
+          height: 200px;
+        }
+   </style>
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a href="index.html"><img class="navbar-brand" src="final final final.png" alt="" width="200" height="110" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Wathsapp</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="productos.html">Escapes GRS</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Tableros</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+
+    </header>
+  
+  
+    <h2>Formulario de contacto</h2>
+    <form action="">
+        <label for="">Nombre</label>
+        <input type="text"  placeholder="Ingrese su nombre"><br>
+
+        <label for="">Apellido</label>
+        <input type="text" placeholder="Ingrese su apellido"><br>
+
+        <label for="">DNI</label>
+        <input type="number" placeholder="Ingrese su dni"><br>
+
+        <label for="">Email</label>
+        <input type="email" placeholder="Ingrese su email"><br>
+
+        <label for="">Password</label>
+        <input type="password" placeholder="Ingrese su contraseña"><br>
+
+        <label for="">Sexo</label>
+        <input type="Checkbox">Masculino
+        <input type="Checkbox">Femenino
+        <input type="Checkbox">Otro
+        <br>
+
+        <label for="">Fecha de Nacimiento</label>
+        <input type="date" name="" id=""><br>
+
+        <label for="">Barrio de la Ciudad</label>
+        <select name="" id="">
+            <option value="">Las 400</option>
+            <option value="">Independencia</option>
+            <option value="">20 de junio</option>
+        </select><br>
+
+        <button>acceder</button>
+    </form>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Institucional</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Sobre nosotros</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
+              <li><a href="#">Politicas De Uso</a></li>
+              <li><a href="#">Terminos de Uso</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Comunicaciones</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Comunicate con nosotros</a></li>
+              <li><a href="#">Whatsapp</a></li>
+              <li><a href="#">Email</a></li>
+              <li><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Redes Sociales</h5>
+            <ul class="list-unstyled d-flex gap-3">
+              <li><a href="https://www.instagram.com/pozzi.racing/?hl=es-la"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom mt-4">
+          <p>&copy; 2025 POZZI Racing. Todos Los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
